@@ -7,7 +7,7 @@ var generatedPassword = '';
 console.log('### REQUISITOS ###\n');
 let longPassword = parseInt(readline.question("Longitud de 1 a 8: "));
 
-if (!longPassword || (longPassword < 1 || longPassword > 8)) {
+if (!longPassword || (longPassword < 8 || longPassword > 16)) {
     console.log("\n### [ERROR] Introduce un valor válido.");
     process.exit(1);
 }

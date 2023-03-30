@@ -5,7 +5,7 @@ var generatedPassword = '';
 
 /* REQUISITOS */
 console.log('### REQUISITOS ###\n');
-let longPassword = parseInt(readline.question("Longitud de 1 a 8: "));
+let longPassword = parseInt(readline.question("Longitud de 8 a 16: "));
 
 if (!longPassword || (longPassword < 8 || longPassword > 16)) {
     console.log("\n### [ERROR] Introduce un valor válido.");
